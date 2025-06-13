@@ -30,3 +30,48 @@ body{
     text-align: center;
 
 }
+
+.containe
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoratiom; 1em;
+    margin-bottom: 1em;
+
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container-aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.conatiner_titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_imagem{
+    margin: 0 6em;
+}
+
+.secundario_caixa{
+    margin: 0 6em;
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+.secundario
