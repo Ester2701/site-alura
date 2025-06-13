@@ -74,4 +74,60 @@ body{
 .secundario_imagem{
     width: 80%;
 }
-.secundario
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto{
+    color: var(--cinza-secundario);
+}
+
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container_descricao{
+    padding: 2em;
+}
+
+.dispositivos_lista{
+    dosplay: flex;
+    justify-content: center;
+    list-style-type: nome;
+    margin: 5em 0;
+}
+
+.disposiivos{
+    tex-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: 48px
+    color: var(--branco-principal);
+}
+
+.lista_item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
